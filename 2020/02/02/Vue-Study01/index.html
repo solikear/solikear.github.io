@@ -46,17 +46,19 @@
   };
 </script>
 
-  <meta name="description" content="我的第N个博客 不写100篇不改这句话">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Deer404 Blog">
-<meta property="og:url" content="http://yoursite.com/archives/2020/01/index.html">
+  <meta name="description" content="Vue 第一天 var app &#x3D; new Vue({             el: &#39;#app&#39;,              data:{                 content:&#39;Hello World!&#39;,             }         })   理解el: 代表这个vue的实例接管的区域 #app 就是 id 为 app的区域data: 定义一些数据 Vue 简单修">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vue Study01">
+<meta property="og:url" content="http://yoursite.com/2020/02/02/Vue-Study01/index.html">
 <meta property="og:site_name" content="Deer404 Blog">
-<meta property="og:description" content="我的第N个博客 不写100篇不改这句话">
+<meta property="og:description" content="Vue 第一天 var app &#x3D; new Vue({             el: &#39;#app&#39;,              data:{                 content:&#39;Hello World!&#39;,             }         })   理解el: 代表这个vue的实例接管的区域 #app 就是 id 为 app的区域data: 定义一些数据 Vue 简单修">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-02-02T06:58:03.000Z">
+<meta property="article:modified_time" content="2020-02-04T07:02:52.879Z">
 <meta property="article:author" content="Deer404">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/archives/2020/01/">
+<link rel="canonical" href="http://yoursite.com/2020/02/02/Vue-Study01/">
 
 
 <script id="page-configurations">
@@ -64,11 +66,11 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false
+    isPost: true
   };
 </script>
 
-  <title>归档 | Deer404 Blog</title>
+  <title>Vue Study01 | Deer404 Blog</title>
   
 
 
@@ -164,49 +166,98 @@
           <div class="content">
             
 
+  <div class="posts-expand">
+      
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 1 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/02/Vue-Study01/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Deer404">
+      <meta itemprop="description" content="我的第N个博客 不写100篇不改这句话">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Deer404 Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Vue Study01
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-02-02 14:58:03" itemprop="dateCreated datePublished" datetime="2020-02-02T14:58:03+08:00">2020-02-02</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-02-04 15:02:52" itemprop="dateModified" datetime="2020-02-04T15:02:52+08:00">2020-02-04</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <h1 class="collection-header">2020</h1>
+        <h3 id="Vue-第一天"><a href="#Vue-第一天" class="headerlink" title="Vue 第一天"></a>Vue 第一天</h3><pre class="line-numbers language-js"><code class="language-js">
+<span class="token keyword">var</span> app <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            el<span class="token punctuation">:</span> <span class="token string">'#app'</span><span class="token punctuation">,</span> 
+            data<span class="token punctuation">:</span><span class="token punctuation">{</span>
+                content<span class="token punctuation">:</span><span class="token string">'Hello World!'</span><span class="token punctuation">,</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="理解"><a href="#理解" class="headerlink" title="理解"></a>理解</h4><p>el: 代表这个vue的实例接管的区域 #app 就是 id 为 app的区域<br>data: 定义一些数据</p>
+<h3 id="Vue-简单修改数据"><a href="#Vue-简单修改数据" class="headerlink" title="Vue 简单修改数据"></a>Vue 简单修改数据</h3><pre class="line-numbers language-js"><code class="language-js"><span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            app<span class="token punctuation">.</span>$data<span class="token punctuation">.</span>content <span class="token operator">=</span> <span class="token string">"Bye World"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">2000</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h4 id="理解-1"><a href="#理解-1" class="headerlink" title="理解"></a>理解</h4><p>模块名.$data.数据变量<br>就可以修改data里的数据值 </p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>今天是第一天学习vue，虽然只是一个简单的helloworld,<br>但是已经体验到了Vue的甜头,可以不用去关注dom上的操作,<br>减少document.getxxx的操作,而是去关注数据上的操作<br>加油！</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-01-11T20:00:00+08:00"
-              content="2020-01-11">
-          01-11
-        </time>
-      </div>
+      <footer class="post-footer">
 
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/01/11/test-my-site/" itemprop="url">
-            <span itemprop="name">test_my_site</span>
-          </a>
-      </h2>
+        
 
-    </header>
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2020/02/03/Vue-Study02/" rel="next" title="Vue Study02">
+      Vue Study02 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
   </article>
+  
+  
+  
 
-
-    </div>
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
@@ -257,6 +308,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Vue-第一天"><span class="nav-number">1.</span> <span class="nav-text">Vue 第一天</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#理解"><span class="nav-number">1.1.</span> <span class="nav-text">理解</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Vue-简单修改数据"><span class="nav-number">2.</span> <span class="nav-text">Vue 简单修改数据</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#理解-1"><span class="nav-number">2.1.</span> <span class="nav-text">理解</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number"></span> <span class="nav-text">总结</span></a></div>
       </div>
       <!--/noindex-->
 
@@ -270,7 +322,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
